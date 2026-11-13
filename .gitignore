@@ -1,0 +1,16 @@
+/bin
+/sys
+
+*~
+build/a.lst
+build/a.out
+build/boot.rim
+build/image.fs
+build/bin
+build/tests
+build/n.out
+build/cas.out
+build/chrtbl.out
+**/.DS_Store
+a.out
+.idea

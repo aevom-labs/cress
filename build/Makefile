@@ -85,8 +85,6 @@ clean:
 dirs:
 	mkdir -p $(BINDIR)
 
-# The commands that came from the original scans
-# PLEASE KEEP IN ALPHABETICAL ORDER!
 cmd:	dirs \
 	$(BINDIR)/adm \
 	$(BINDIR)/ald \
@@ -104,6 +102,7 @@ cmd:	dirs \
 	$(BINDIR)/dskres \
 	$(BINDIR)/dsksav \
 	$(BINDIR)/dsw \
+	$(BINDIR)/echo \
 	$(BINDIR)/ed \
 	$(BINDIR)/init \
 	$(BINDIR)/ln \
@@ -170,6 +169,9 @@ $(BINDIR)/dsksav: $(DSKSAV)
 
 $(BINDIR)/dsw: $(CMDSRC)/dsw.s
 	$(AS) $(ASARGS) -o $(BINDIR)/dsw $(CMDSRC)/dsw.s
+
+$(BINDIR)/echo: $(CMDSRC)/echo.s
+	$(AS) $(ASARGS) -o $(BINDIR)/echo $(CMDSRC)/echo.s
 
 ED=$(CMDSRC)/ed1.s $(CMDSRC)/ed2.s
 $(BINDIR)/ed: $(ED)

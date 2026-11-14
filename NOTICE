@@ -1,0 +1,19 @@
+Cress
+
+Copyright (c) 2026 Aevom Contributors
+
+
+ATTRIBUTIONS
+
+pdp7-unix
+https://github.com/DoctorWkt/pdp7-unix
+
+This project is derived from `pdp7-unix`, which is licensed under the GNU General Public License, Version 3.0 (GPL-3.0).
+The original authorship and copyright attribution of `pdp7-unix` are unclear. Please consult its Git repository for additional information.
+
+
+UNIX
+
+The `pdp7-unix` project attributes the original UNIX source code to Micro Focus.
+For further information, see:
+https://github.com/DoctorWkt/pdp7-unix/blob/master/scans/README.md
